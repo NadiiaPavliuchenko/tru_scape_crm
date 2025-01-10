@@ -1,5 +1,6 @@
 // import { headers } from 'next/headers';
 import AddCompanyButton from './components/add-company-button';
+import MagicButton from './components/magic-button';
 // import StatusLabel, { Status } from './components/status-label';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <StatusLabel status={Status.Pending}>Pending</StatusLabel>
       <StatusLabel status={Status.Suspended}>Suspended</StatusLabel> */}
       <AddCompanyButton />
+      <MagicButton />
     </main>
   );
 }
