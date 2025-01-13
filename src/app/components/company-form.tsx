@@ -36,13 +36,13 @@ export default function CompanyForm({ onSubmit }: CompanyFormProps) {
               label="Status"
               placeholder="Status"
               name="status"
-              as="select"
+              as="input"
             />
             <InputField
               label="Country"
               placeholder="Country"
               name="country"
-              as="select"
+              as="input"
             />
           </div>
           <div className="flex flex-col flex-1 gap-5">
@@ -50,25 +50,25 @@ export default function CompanyForm({ onSubmit }: CompanyFormProps) {
               label="Name"
               placeholder="Name"
               name="name"
-              as="select"
+              as="input"
             />
             <InputField
               label="Category"
               placeholder="Category"
               name="category"
-              as="select"
+              as="input"
             />
             <InputField
               label="Joined date"
               type="date"
               name="date"
-              as="select"
+              as="input"
             />
             <InputField
               label="Description"
               placeholder="Description"
               name="description"
-              as="select"
+              as="input"
             />
           </div>
         </div>
