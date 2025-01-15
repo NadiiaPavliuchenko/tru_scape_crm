@@ -13,6 +13,7 @@ export type CompanyFieldValues = {
   date: string;
   description: string;
 };
+
 const initialValues: CompanyFieldValues = {
   name: '',
   status: '',
@@ -21,9 +22,11 @@ const initialValues: CompanyFieldValues = {
   date: '',
   description: '',
 };
+
 export interface CompanyFormProps {
   onSubmit: (values: CompanyFieldValues) => void | Promise<void>;
 }
+
 export default function CompanyForm({ onSubmit }: CompanyFormProps) {
   return (
     <Formik initialValues={initialValues} onSubmit={onSubmit}>
